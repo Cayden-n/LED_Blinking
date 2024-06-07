@@ -1,12 +1,12 @@
-const int greenPin = 2;  // R petal on RGB LED module connected to digital pin 11 
-const int yellowPin = 3;  // G petal on RGB LED module connected to digital pin 10 
-const int redPin = 4;  // B petal on RGB LED module connected to digital pin 9 
-/**************************************************************************/
+const int greenPin = 2; 
+const int yellowPin = 3;   
+const int redPin = 4;  
+
 void setup()
 { 
-  pinMode(greenPin, OUTPUT); // sets the redPin to be an output 
-  pinMode(yellowPin, OUTPUT); // sets the greenPin to be an output 
-  pinMode(redPin, OUTPUT); // sets the bluePin to be an output 
+  pinMode(greenPin, OUTPUT); // sets the greenPin to be an output 
+  pinMode(yellowPin, OUTPUT); // sets the yellownPin to be an output 
+  pinMode(redPin, OUTPUT); // sets the redPin to be an output 
 }  
 
 void loop()
